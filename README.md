@@ -3,7 +3,7 @@
 [![CircleCI](https://circleci.com/gh/dollarshaveclub/line/tree/master.svg?style=shield)](https://circleci.com/gh/dollarshaveclub/line/tree/master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dollarshaveclub/line)](https://goreportcard.com/report/github.com/dollarshaveclub/line)
 
-line is an easy to use package for stylizing terminal output. line focuses on usability via chaining and, consequently, is quite flexible. line also boasts compatibility with the popular [Color](github.com/faith/color) package.
+line is an easy to use package for stylizing terminal output. line focuses on usability via chaining and, consequently, is quite flexible. line also boasts compatibility with the popular [Color](https://github.com/fatih/color) package.
 
 ## Install
 
