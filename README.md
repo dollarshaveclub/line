@@ -39,11 +39,15 @@ func main() {
 ```go
 package main
 
-import "github.com/dollarshaveclub/line"
-import "github.com/fatih/color"
+import (
+	"os"
+
+	"github.com/dollarshaveclub/line"
+	"github.com/fatih/color"
+)
 
 func main() {
-	output := line.White()
+	output := line.New(os.Stdout, "", "", line.WhiteColor)
 	output.Println("Welcome! Here is a list:")
 
 	li := output.Prefix("--> ").Red()
@@ -52,7 +56,7 @@ func main() {
 	subli := li.Prefix("  --> ").Green()
 	subli.Println("a").Println("b")
 
-	output.Println().Println()
+	output.Println()
 
 	boldgreen := color.New(color.Bold, color.FgMagenta)
 	output.Format(boldgreen).Println("Have a nice day!")
