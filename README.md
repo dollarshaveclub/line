@@ -1,4 +1,4 @@
-# line
+# line   &nbsp;<img src="doc/images/line-v.png" width="25" height="25"/>
 
 line is an easy to use package for stylizing terminal output. line focuses on usability via chaining and, consequently, is quite flexible. line also boasts compatibility with the popular [Color](github.com/faith/color) package.
 
