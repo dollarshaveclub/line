@@ -1,5 +1,6 @@
 # line   &nbsp;<img src="doc/images/line-v.png" width="25" height="25"/>
-[![CircleCI](https://circleci.com/gh/dollarshaveclub/line/tree/master.svg?style=svg)](https://circleci.com/gh/dollarshaveclub/line/tree/master)
+[![GoDoc](https://godoc.org/github.com/dollarshaveclub/line?status.svg)](http://godoc.org/github.com/dollarshaveclub/line)
+[![CircleCI](https://circleci.com/gh/dollarshaveclub/line/tree/master.svg?style=shield)](https://circleci.com/gh/dollarshaveclub/line/tree/master)
 
 line is an easy to use package for stylizing terminal output. line focuses on usability via chaining and, consequently, is quite flexible. line also boasts compatibility with the popular [Color](github.com/faith/color) package.
 
