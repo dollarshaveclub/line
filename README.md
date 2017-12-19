@@ -24,6 +24,7 @@ func main() {
     line.Red().Print("Hello ").Green("World").Blue().Println("!!!")
 }
 ```
+![Simple Usage](doc/images/simple.png)
 
 ### Prefix / Suffix
 
@@ -36,6 +37,7 @@ func main() {
 	line.Prefix("--> ").Suffix(" <---").Println("Nice to meet you!").Println("And you too!")
 }
 ```
+![Prefix / Suffix Usage](doc/images/prefix-suffix.png)
 
 ### Complex
 
@@ -65,3 +67,4 @@ func main() {
 	output.Format(boldgreen).Println("Have a nice day!")
 }
 ```
+![Complex Usage](doc/images/complex.png)
