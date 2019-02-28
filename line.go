@@ -27,6 +27,11 @@ func (l *Line) Prefix(prefix string) *Output {
 	return NewOutput(l, prefix, l.suffix, l.formatter)
 }
 
+// ReplaceLine replaces the current line of output
+func (l *Line) ReplaceLine() *Output {
+	return NewOutput(l, l.prefix, l.suffix, l.formatter).Print("\r\033[K")
+}
+
 // Suffix sets the suffix for the returned Output
 func (l *Line) Suffix(suffix string) *Output {
 	return NewOutput(l, l.prefix, suffix, l.formatter)

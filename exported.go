@@ -47,6 +47,11 @@ func Progress(a ...interface{}) *Output {
 	return Std.Prefix("--> ").Print(a...)
 }
 
+//ReplaceLine replaces the current line
+func ReplaceLine() *Output {
+	return Std.Print("\r\033[K")
+}
+
 // Error prints using formatting suitable for an error message
 func Error(a ...interface{}) *Output {
 	return Std.Red().Print(a...)
